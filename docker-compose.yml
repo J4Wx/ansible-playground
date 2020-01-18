@@ -1,0 +1,12 @@
+version: '2'
+services: 
+    server1.test:
+        image: ubuntu-ssh
+        hostname: server1.test
+        ports: 
+            - "2201:22"
+    server2.test:
+        image: ubuntu-ssh
+        hostname: server2.test
+        ports: 
+            - "2202:22"
